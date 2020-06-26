@@ -1,0 +1,52 @@
+body {
+    font-size: 18px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.bodyColor {
+    background: rgb(147, 147, 240);
+}
+
+.fontSize {
+    font-size: 1.5em;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+h3 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.jumbotron {
+    background: linear-gradient(to left, rgb(146, 68, 68), rgb(125, 125, 192));
+}
+
+.contact p,
+a {
+    color: rgb(20, 212, 202) !important;
+}
+
+
+.showContent {
+    
+    min-height: 300px;
+    display: none;
+    display: none;
+    margin-bottom: 20px;
+}
+
+

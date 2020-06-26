@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  
+    <title>Paramdeep's resume</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container bg-info ">
+        <div class="jumbotron p-4 text-center mt-4 ">
+            <h2>Paramdeep's Resume</h2>
+            <p>Fill your details to see the Resume</p>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="col-md-7 ">
+                <form action="home.html">
+                    <div class="form-group">
+
+                        <label for="name1">Name:</label>
+                        <input class="form-control" type="text" name="name" id="name1" placeholder="Enter your name" required />
+                        <small class="text-muted ">Enter full name</small>
+                    </div>
+
+                    <div class="form-group ">
+                        <label for="email">Email:</label>
+                        <div class="input-group">
+                            <input class="form-control" type="email" id="email" name="email" placeholder="Enter your valid email" required />
+                            <span class="input-group-text">@example.com</span>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                         <label for="sel1">Gender:</label>
+                         <select class="form-control" id="sel1">
+
+                        <option>Choose</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                     </select>
+                    </div>
+                  
+                    <div class=" row justify-content-center mb-4 mt-5">
+                        <button class="btn bg-danger text-white" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
